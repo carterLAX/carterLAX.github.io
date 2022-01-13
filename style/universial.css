@@ -1,0 +1,47 @@
+/* Import Fonts */
+@font-face {
+    font-family: 'peace_sansregular';
+    src: url('peace_sans-webfont.eot');
+    src: url('peace_sans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('peace_sans-webfont.woff2') format('woff2'),
+         url('peace_sans-webfont.woff') format('woff'),
+         url('peace_sans-webfont.ttf') format('truetype'),
+         url('peace_sans-webfont.svg#peace_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+  
+body {
+    margin: 0px 0px 0px 0px;
+    background-color: #292D3E;
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: #212432;
+    border: 3px solid;
+    border-color: #2E3243;
+    font-family: 'peace_sansregular', Arial, sans-serif;
+}
+  
+li a:hover {
+    background-color: #7E57C2;
+    text-shadow: 2px 2px 5px #000000;
+}

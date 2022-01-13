@@ -1,0 +1,149 @@
+/* Import Fonts */
+@font-face {
+    font-family: 'peace_sansregular';
+    src: url('peace_sans-webfont.eot');
+    src: url('peace_sans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('peace_sans-webfont.woff2') format('woff2'),
+         url('peace_sans-webfont.woff') format('woff'),
+         url('peace_sans-webfont.ttf') format('truetype'),
+         url('peace_sans-webfont.svg#peace_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Background Color */
+body {
+    margin: 0px 0px 0px 0px;
+    background-color: #292D3E;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    font-family: 'peace_sansregular', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px #000000;
+    font-size: 50px;
+}
+
+/* Header Image */
+.headerImage {
+  width: 25%;
+  height: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10000px;
+}
+
+/* Button Styling */
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 8px 4px;
+    cursor: pointer;
+    font-family: 'peace_sansregular', Arial, sans-serif;
+    text-shadow: 2px 2px 5px #000000;
+    border-radius: 100px;
+}
+
+/* Relaxed Downtown Button Styling */
+.relaxedDowntown {
+    padding: 15px 128px;
+    background-color: #7289DA;
+}
+
+.relaxedDowntown:hover {
+    background-color: #292D3E;
+    color: #7289DA;
+    border: 3px solid #7289DA;
+    text-shadow: none;
+}
+
+/* Snapchat Button Styling */
+.snapchat {
+    padding: 15px 128px;
+    background-color: #FFFC00;
+}
+
+.snapchat:hover {
+    background-color: #292D3E;
+    color: #FFFC00;
+    border: 3px solid #FFFC00;
+    text-shadow: none;
+}
+
+/* Instagram Button Styling */
+.instagram {
+    padding: 15px 128px;
+    background-image: linear-gradient(to bottom right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+}
+
+.instagram:hover {
+    background-image: none;
+    background-color: #292D3E;
+    color: #f56040;
+    border: 3px solid #f56040;
+    text-shadow: none;
+}
+
+/* TikTok Button Styling */
+.tikTok {
+    padding: 15px 128px;
+    background-image: linear-gradient(to bottom right, #ff0050, #00f2ea);
+}
+
+.tikTok:hover {
+    background-image: none;
+    background-color: #292D3E;
+    color: #ff0050;
+    border: 3px solid #ff0050;
+    text-shadow: none;
+}
+
+/* Twitch Button Styling */
+.twitch {
+    padding: 15px 128px;
+    background-color: #6441a5;
+}
+
+.twitch:hover {
+    background-image: none;
+    background-color: #292D3E;
+    color: #6441a5;
+    border: 3px solid #6441a5;
+    text-shadow: none;
+}
+
+/* YouTube Button Styling */
+.youTube {
+    padding: 15px 128px;
+    background-color: #FF0000;
+}
+
+.youTube:hover {
+    background-image: none;
+    background-color: #292D3E;
+    color: #FF0000;
+    border: 3px solid #FF0000;
+    text-shadow: none;
+}
+
+/* Reddit Button Styling */
+.reddit {
+    padding: 15px 128px;
+    background-color: #ff4500;
+}
+
+.reddit:hover {
+    background-image: none;
+    background-color: #292D3E;
+    color: #ff4500;
+    border: 3px solid #ff4500;
+    text-shadow: none;
+}
