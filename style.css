@@ -2,6 +2,13 @@
 
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
+:root {
+  --bg: #121212;
+  --accent: #8685ef;
+  --darker-bg: #272533;
+  -secondary: #faf7ff;
+}
+
 * {
   scroll-behavior: smooth;
 }
