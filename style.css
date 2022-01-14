@@ -2,6 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #121212;
   font-family: "Quicksand", sans-serif;
@@ -63,7 +67,7 @@ header::after {
 }
 
 .site-nav li {
-  border-bottom: 1px solid #575766;
+  border-bottom: 1px solid #272553;
 }
 
 .site-nav li:last-child {

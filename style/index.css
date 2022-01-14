@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+.main-name {
+  font-family: "Quicksand", sans-serif;
+  font-size: 75px;
+  padding: 3.25em;
+  color: #fff;
+  text-align: center;
+}
+
+.main-name span {
+  font-weight: 400;
+}
+
+.main-sub {
+  font-family: "Quicksand", sans-serif;
+  font-size: 37.5px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
