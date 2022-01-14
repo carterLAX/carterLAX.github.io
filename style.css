@@ -30,13 +30,11 @@ header::after {
   float: left;
   font-size: 1rem;
   margin: 0;
-  text-transform: lowercase;
   font-weight: 700;
 }
 
 .logo span {
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 .site-nav {
