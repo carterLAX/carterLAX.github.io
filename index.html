@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="/style/index.css">
+  <link rel="stylesheet" href="./style/index.css">
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -17,7 +17,7 @@
 <body>
   <header>
     <div class="container">
-      <h1 class="logo">carter<span>LAX</span></h1>
+      <a href="/"><h1 class="logo">carter<span>LAX</span></h1></a>
       <nav class="site-nav">
           <ul>
             <li><a href="/"><i class="fa fa-home site-nav--icon"></i>Home</a></li> 
@@ -29,7 +29,7 @@
       <div class="menu-toggle">
         <div class="hamburger"></div>
       </div>
-      <script  src="./nav.js"></script>
+      <script src="./nav.js"></script>
     </div>
   </header>
   <div class="main-name">
@@ -37,10 +37,17 @@
     Hi! I'm <b>carter</b><span>LAX</span>
   </div>
   <div class="main-sub">
-    <a href="#about-me" class="typewrite main-sub" data-period="2000" data-type='[ "Im a web developer", "Im a student", "Im a pythonista", "I love to develop." ]'>
+    <a href="#about-me" class="typewrite main-sub" data-period="2000" data-type='[ "Im a web developer.", "Im a student.", "Im a software developer.", "Talk to me on my socials!" ]'>
       <span class="wrap"></span>
     </a>
     <script src="./typewriter.js"></script>
-  </div>
+    <div class="card" id="about-me">
+      <div calss="card-title"><strong>About Me</strong></div><br>
+        <div class="card-text">
+        <div>👋 Hi! I am Carter, aka carterLAX on the internet.<br><br></div>
+        <div>I am a teen intrested in all kinds of development. I make small Python, JavaScript, and C# projects, as well as the occasional command line game and bot.<br><br></div>
+        <div>In my free time I code, play games like Minecraft and Forza, and learn new things.<br></div>
+      </div>
+    </div>
 </body>
 </html>

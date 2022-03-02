@@ -6,7 +6,7 @@
   --bg: #121212;
   --accent: #8685ef;
   --darker-bg: #272533;
-  -secondary: #faf7ff;
+  --secondary: #faf7ff;
 }
 
 * {
@@ -42,6 +42,8 @@ header::after {
   font-size: 1rem;
   margin: 0;
   font-weight: 700;
+  text-decoration: none;
+  color: #fff;
 }
 
 .logo span {
